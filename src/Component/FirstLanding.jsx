@@ -12,6 +12,7 @@ const FirstLanding = () => {
         <div className='pl-3'>
           <p className='text-xl sm:text-xl md:text-4xl text-center'>Empowering Your Voice With Vortech</p> 
           <p className='text-xl sm:text-xl sm:mr-10 md:text-4xl text-center'>Your Voice, Your Future.</p>
+          <p className='text-xl sm:text-xl sm:mr-10 md:text-4xl text-center'>Your Voice, Your Future.</p>
         </div>
        </div>
     </div>
