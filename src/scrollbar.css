@@ -1,0 +1,21 @@
+/* Track (the area the scrollbar travels on) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #16DA70;
+    border-radius: 50px;
+}
+
+/* Track (the background of the scrollbar) on hover */
+::-webkit-scrollbar-track {
+    background: transparent;
+    filter: blur(20px);
+}
+
+/* Track (the background of the scrollbar) on hover */
+::-webkit-scrollbar-track:hover {
+    background: #16DA70;
+}

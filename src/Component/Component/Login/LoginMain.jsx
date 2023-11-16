@@ -14,6 +14,7 @@ const LoginMain = () => {
 
 
     return (
+
         <div className='pl-8 pt-8 bg-green-100 pr-[100px] h-screen mainl'>
             <form>
                 <div className='flex justify-between'>
@@ -42,11 +43,7 @@ const LoginMain = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <Link to='/dashboard'>
-                <button className='text-center text-2lg font-bold  mt-10 py-2 px-7 bg-[#02160B] text-[#16DA70] rounded-lg'>Login</button>
-                    </Link>
-                </div>
+                <button className='text-center text-2lg font-bold  mt-10 py-2 px-7 bg-[#02160B] text-[#16DA70] rounded-lg'>Confirm</button>
             </form>
         </div>
     )

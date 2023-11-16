@@ -10,6 +10,11 @@
 @tailwind utilities;
 
 
+
+
+*{
+    overflow: hidden;
+}
 .mobile{
     display: none;
 }
